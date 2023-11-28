@@ -10,7 +10,7 @@ public class Determinante {
     public void Determinante2() {
         int order = ut.numeroSeleccionado("ingresar el orden de la matriz:");
         int[][] matriz = mt.definirMatriz(order, order, "Matriz principal");
-        System.out.println("el determinnate es: " + determinante(matriz, order));
+        System.out.println("el determinante es: " + determinante(matriz, order));
     }
     
     private int determinante(int[][] matriz, int orden) {
