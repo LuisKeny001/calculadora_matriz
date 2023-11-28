@@ -54,7 +54,7 @@ public class MenuPrincipal {
                     break;
                 }
                 case 6: {
-                    dt2.Determinante2();
+                    dt2.Determinante();
                     break;
                 }
                 default: System.out.println("LA OPCION QUE SELECCIONASTE NO EXISTE!!!!!");

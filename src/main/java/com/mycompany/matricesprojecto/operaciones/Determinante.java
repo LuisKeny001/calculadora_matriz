@@ -7,7 +7,7 @@ public class Determinante {
     static Utilidades ut = new Utilidades();
     static matriz mt = new matriz();
     
-    public void Determinante2() {
+    public void Determinante() {
         int order = ut.numeroSeleccionado("ingresar el orden de la matriz:");
         int[][] matriz = mt.definirMatriz(order, order, "Matriz principal");
         System.out.println("el determinante es: " + determinante(matriz, order));
